@@ -17,7 +17,7 @@ export function Hero() {
     setTimeout(() => setShowCopied(false), 2000)
   }
 
-  const birthDate = new Date('1998-08-19')
+  const birthDate = new Date('1999-05-27')
 
   useEffect(() => {
     const calculateAge = () => {
@@ -31,7 +31,7 @@ export function Hero() {
     }
 
     const calculateDecimalAge = () => {
-      const birthTime = new Date('1998-08-19T00:00:00').getTime()
+      const birthTime = new Date('1999-05-27T00:00:00').getTime()
       const currentTime = new Date().getTime()
       const ageInMilliseconds = currentTime - birthTime
       const ageInYears = ageInMilliseconds / (1000 * 60 * 60 * 24 * 365.25)
@@ -85,10 +85,10 @@ export function Hero() {
             <h2 className="text-sm font-medium uppercase text-gray-400">Summary</h2>
             <ul className="list-disc space-y-2 pl-4 text-gray-600 [&>li::marker]:text-gray-300">
               <li>
-                Currently I&apos;m working on my{' '}
+                Currently I&apos;m working on {' '}
                 <LinkText
                   variant="text-link"
-                  text="ideas"
+                  text="TakeCare+"
                   href="/projects"
                 />
                 {' '}
@@ -148,7 +148,7 @@ export function Hero() {
                     </div>
                   )}
                 </span>{' '}
-                years old, based in Bombay
+                years old, based in Dehradun
               </li>
               <li>
                 I built the first meme page network in India to 16M followers{' '}
@@ -177,9 +177,9 @@ export function Hero() {
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-4 w-full">
               <a 
-                href="mailto:yb@yashbhardwaj.com" 
+                href="mailto:sarthakdangwal@gmail.com" 
                 onClick={handleEmailClick}
-                className="group relative text-gray-400 hover:text-gray-600"
+                className="group relative text-gray-400 hover:text-gray-600 ml-2"
               >
                 <Mail className="h-5 w-5" />
                 {showCopied && (
@@ -188,40 +188,6 @@ export function Hero() {
                   </div>
                 )}
               </a>
-              <a 
-                href="https://x.com/ybhrdwj" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-gray-600"
-              >
-                <Image 
-                  src="/x.svg" 
-                  alt="X (Twitter)" 
-                  width={20} 
-                  height={20}
-                  className="[&>path]:fill-gray-100 hover:[&>path]:fill-gray-600"
-                />
-              </a>
-              <a 
-                href="https://instagram.com/ybhrdwj" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-gray-600"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a 
-                href="https://github.com/ybhrdwj" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-gray-600"
-              >
-                <Github className="h-5 w-5" />
-              </a>
-              
-              {/* Divider */}
-              <div className="h-4 w-px bg-gray-200" />
-              
               {/* Music section - inline with social icons */}
               <div className="group flex items-center gap-2 text-gray-600 flex-1 min-w-0">
                 <div className="flex items-center gap-2 whitespace-nowrap overflow-hidden">
@@ -266,10 +232,10 @@ export function Hero() {
           <h2 className="text-sm font-medium uppercase text-gray-400">Summary</h2>
           <ul className="list-disc space-y-2 pl-4 text-gray-600 [&>li::marker]:text-gray-300">
             <li>
-              Currently I&apos;m working on my{' '}
+              Currently I&apos;m working on{' '}
               <LinkText
                 variant="text-link"
-                text="ideas"
+                text="TakeCare+"
                 href="/projects"
               />
               {' '}
@@ -284,10 +250,10 @@ export function Hero() {
               />
             </li>
             <li>
-              Previously I was designing at{' '}
+              Previously I was led marketing for{' '}
               <LinkText
                 variant="single-image-link"
-                text="Solana"
+                text="Outscal"
                 href="https://solana.com"
                 images={{ src: "/logos/solana.png", alt: "Solana" }}
                 withBorder
@@ -295,14 +261,14 @@ export function Hero() {
               {' '}&{' '}
               <LinkText
                 variant="single-image-link"
-                text="Balaji S"
+                text="Qunitinno Labs"
                 href="https://x.com/balajis"
                 images={{ src: "/logos/balaji.png", alt: "Balaji" }}
                 withBorder
               />
             </li>
             <li>
-              I&apos;ve worked for 220 companies since 2016{' '}
+              I&apos;ve worked on 2 documentaries for Discovery{' '}
               <LinkText
                 variant="image-stack"
                 text=""
@@ -329,10 +295,10 @@ export function Hero() {
                   </div>
                 )}
               </span>{' '}
-              years old, based in Bombay
+              years old, based in Dehradun
             </li>
             <li>
-              I built the first meme page network in India to 16M followers{' '}
+              I created YouTube shorts that got over 100M views{' '}
               <LinkText
                 variant="image-stack"
                 text=""
@@ -342,10 +308,10 @@ export function Hero() {
               />
             </li>
             <li>
-              I write a pretty smart newsletter called{' '}
+              I also sometimes create cool videos that capture complex {' '}
               <LinkText
                 variant="single-image-link"
-                text="Product Hacks"
+                text="ideas"
                 href="https://producthacks.io"
                 images={{ src: "/logos/producthacks.png", alt: "Product Hacks" }}
                 withBorder
@@ -355,12 +321,12 @@ export function Hero() {
         </div>
 
         {/* Social and Music section */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4">
           <div className="flex items-center gap-4">
             <a 
-              href="mailto:yb@yashbhardwaj.com" 
+              href="mailto:sarthakdangwal@gmail.com" 
               onClick={handleEmailClick}
-              className="group relative text-gray-400 hover:text-gray-600"
+              className="group relative text-gray-400 hover:text-gray-600 ml-2"
             >
               <Mail className="h-5 w-5" />
               {showCopied && (
@@ -369,40 +335,7 @@ export function Hero() {
                 </div>
               )}
             </a>
-            <a 
-              href="https://x.com/ybhrdwj" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-600"
-            >
-              <Image 
-                src="/x.svg" 
-                alt="X (Twitter)" 
-                width={20} 
-                height={20}
-                className="[&>path]:fill-gray-100 hover:[&>path]:fill-gray-600"
-              />
-            </a>
-            <a 
-              href="https://instagram.com/ybhrdwj" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-600"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
-            <a 
-              href="https://github.com/ybhrdwj" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-600"
-            >
-              <Github className="h-5 w-5" />
-            </a>
           </div>
-          
-          {/* Divider */}
-          <div className="h-4 w-px bg-gray-200" />
           
           {/* Music section */}
           <div className="group flex items-center gap-2 text-gray-600">
