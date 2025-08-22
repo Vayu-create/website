@@ -60,7 +60,7 @@ export function Hero() {
           {/* Welcome paragraph - 75% width */}
           <div className="w-3/4">
             <p className="text-base text-gray-600">
-              Hello! I&apos;m Yash and you&apos;re currently exploring my tiny 
+              Hello! I&apos;m Sarthak and you&apos;re currently exploring my tiny 
               corner of the internet. I use this space to project my ideas 
               and express my obsessions.
             </p>
@@ -256,7 +256,7 @@ export function Hero() {
       <div className="hidden md:block md:col-span-7 space-y-12">
         {/* Welcome paragraph */}
         <p className="text-base text-gray-600">
-          Hello! I&apos;m Yash and you&apos;re currently exploring my tiny <br />
+          Hello! I&apos;m Sarthak and you&apos;re currently exploring my tiny <br />
           corner of the internet. I use this space to project my ideas <br />
           and express my obsessions.
         </p>
