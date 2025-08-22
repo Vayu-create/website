@@ -239,10 +239,10 @@ export function Hero() {
                     <span className="inline-flex max-w-[80px] sm:max-w-none overflow-hidden">
                       <LinkText
                         variant="text-link"
-                        text="Dissolve"
-                        href="https://www.youtube.com/watch?v=xe2FPP4lX14"
+                        text="'I Only Smoke When I Drink"
+                        href="https://youtu.be/ESjPc7I5h_Q"
                       />
-                      <span className="truncate"> by Absafacto</span>
+                      <span className="truncate"> by nimino</span>
                     </span>
                   </span>
                 </div>
@@ -420,8 +420,8 @@ export function Hero() {
                 ♪ Listening to{' '}
                 <LinkText
                   variant="text-link"
-                  text="Dissolve by Absafacto"
-                  href="https://www.youtube.com/watch?v=xe2FPP4lX14"
+                  text="I Only Smoke When I Drink by nimino"
+                  href="https://youtu.be/ESjPc7I5h_Q"
                 />
               </span>
             </div>

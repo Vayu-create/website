@@ -12,9 +12,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Yash Bhardwaj",
+  title: "Sarthak Dangwal",
   description: "Building fun things on the internet",
-  metadataBase: new URL('https://yashbhardwaj.com'),
+  metadataBase: new URL('https://sarthakdangwal.com'),
   icons: {
     icon: '/favicon.ico?v=1',
     apple: '/apple-touch-icon.png?v=1',
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   openGraph: {
     type: 'website',
-    url: 'https://yashbhardwaj.com',
-    title: "Yash Bhardwaj",
+    url: 'https://sarthakdangwal.com',
+    title: "Sarthak Dangwal",
     description: "Building fun things on the internet",
-    siteName: 'Yash Bhardwaj',
+    siteName: 'Sarthak Dangwal',
     images: ["https://yashbhardwaj.com/og-image.png"],
   },
   twitter: {
