@@ -17,7 +17,7 @@ export async function generateMetadata({
   
   if (!post) {
     return {
-      title: 'Post Not Found | Yash Bhardwaj',
+      title: 'Post Not Found | Sarthak Dangwal',
       description: 'The requested post could not be found.',
     }
   }
@@ -25,7 +25,7 @@ export async function generateMetadata({
   const ogUrl = `/api/og?slug=${slug}&title=${encodeURIComponent(post.title)}&category=${encodeURIComponent(post.category)}&date=${encodeURIComponent(post.date)}`
 
   return {
-    title: `${post.title} | Yash Bhardwaj`,
+    title: `${post.title} | Sarthak Dangwal`,
     description: post.description || post.title,
     openGraph: {
       type: 'article',
@@ -40,9 +40,9 @@ export async function generateMetadata({
           alt: post.title,
         }
       ],
-      siteName: 'Yash Bhardwaj',
+      siteName: 'Sarthak Dangwal',
       publishedTime: post.date,
-      authors: ['Yash Bhardwaj'],
+      authors: ['Sarthak Dangwal'],
     },
     twitter: {
       card: 'summary_large_image',
@@ -103,38 +103,19 @@ export default async function Post({
           <h1 className="mb-3 text-[28px] font-semibold tracking-[-0.02em] text-gray-900">
             {post.title}
           </h1>
-
-          {/* Author and Share */}
-          <div className="mb-8 flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Image
-                src="/logos/yb.jpg"
-                alt="Yash Bhardwaj"
-                width={24}
-                height={24}
-                className="rounded-full"
-              />
-              <span className="text-sm text-gray-600">by Yash Bhardwaj</span>
+          {/* Author */}
+            <div className="mb-8 flex items-center justify-between w-full">
+              <div className="flex items-center gap-3">
+                <Image
+                  src="/logos/yb.jpg"
+                  alt="Sarthak Dangwal"
+                  width={24}
+                  height={24}
+                  className="rounded-full"
+                />
+                <span className="text-sm text-gray-600">by Sarthak Dangwal</span>
+              </div>
             </div>
-            <a 
-              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-                `Just finished reading — ${post.title} by @ybhrdwj\n\nhttps://yashbhardwaj.com/writing/${slug}`
-              )}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-full border border-gray-200 px-4 py-1 text-sm text-gray-400 hover:border-gray-400 hover:text-gray-600"
-            >
-              <Image 
-                src="/x.svg" 
-                alt="Share on X (Twitter)" 
-                width={14} 
-                height={14}
-                className="opacity-60 group-hover:opacity-100"
-              />
-              Share
-            </a>
-          </div>
-
           {/* Divider */}
           <div className="mb-8 h-px w-full bg-gray-200" />
 

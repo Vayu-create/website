@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yash Bhardwaj",
+    title: "Sarthak Dangwal",
     description: "Building fun things on the internet",
     images: ["https://yashbhardwaj.com/og-image.png"],
     creator: '@ybhrdwj',

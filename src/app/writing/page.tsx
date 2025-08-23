@@ -4,7 +4,7 @@ import { getAllPosts } from '@/lib/mdx'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Writing | Yash Bhardwaj',
+  title: 'Writing | Sarthak Dangwal',
   description: 'Thoughts on technology, business, and life',
   openGraph: {
     title: 'Writing | Yash Bhardwaj',

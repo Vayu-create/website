@@ -366,7 +366,7 @@ export function Hero() {
       <div className="hidden md:block md:col-span-3">
         <Image
           src="/yb-hero.jpg"
-          alt="Yash Bhardwaj"
+          alt="Sarthak Dangwal"
           width={400}
           height={400}
           className="rounded-lg"
