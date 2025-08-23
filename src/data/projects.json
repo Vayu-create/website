@@ -8,10 +8,34 @@
       "description": "AI thinking partner for doctors"
     },
     {
-      "logo": "/logos/pondylife.png",
+      "logo": "/logos/Quint.png",
+      "name": "Quintinno Labs",
+      "url": "quintinno.com",
+      "description": "Pre-Seed Clean Energy Startup"
+    },
+    {
+      "logo": "/logos/Outscal.png",
       "name": "Outscal",
       "url": "outscal.com",
-      "description": "XYZ"
+      "description": "Early Stage Ed-tech Startup"
+    },
+    {
+      "logo": "/logos/Vice.png",
+      "name": "VICE Media",
+      "url": "vice.com",
+      "description": "Four Episode Crime Documentary Series"
+    },
+    {
+      "logo": "/logos/Memesys.png",
+      "name": "Memesys Culture Lab",
+      "url": "memesys.com",
+      "description": "Sci-com Videos"
+    },
+    {
+     "logo": "/logos/Discovery.png",
+      "name": "Discovery+",
+      "url": "discovery.com",
+      "description": "Documenting the Journey of India's Space Program"
     }
   ]
 } 
