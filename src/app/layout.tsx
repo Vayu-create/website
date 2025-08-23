@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   description: "Building fun things on the internet",
   metadataBase: new URL('https://sarthakdangwal.com'),
   icons: {
-    icon: '/favicon.ico?v=1',
-    apple: '/apple-touch-icon.png?v=1',
-    shortcut: '/favicon-16x16.png?v=1',
+    icon: '/favicon.png',
+    apple: '/apple-touch-icon.png',
+    shortcut: '/favicon-16x16.png',
   },
   manifest: '/site.webmanifest',
   openGraph: {

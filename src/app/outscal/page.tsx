@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description:
     'How I scaled Outscal\'s YouTube presence to 100M+ views and 50K+ subscribers with an AI-assisted Shorts engine and data-driven experimentation.',
   icons: {
-    icon: '/favicon.ico?v=1',
-    apple: '/apple-touch-icon.png?v=1',
-    shortcut: '/favicon-16x16.png?v=1',
+    icon: '/favicon.png',
+    apple: '/apple-touch-icon.png',
+    shortcut: '/favicon-16x16.png',
   },
   openGraph: {
     type: 'article',
