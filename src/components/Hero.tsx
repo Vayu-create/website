@@ -237,7 +237,7 @@ export function Hero() {
                 variant="single-image-link"
                 text="Outscal"
                 href="https://outscal.com"
-                images={{ src: "/logos/solana.png", alt: "Solana" }}
+                images={{ src: "/logos/Outscal.png",alt: "Outscal"}}
                 withBorder
               />
               {' '}&{' '}
@@ -245,12 +245,19 @@ export function Hero() {
                 variant="single-image-link"
                 text="Qunitinno Labs"
                 href="https://www.quintinno.com/"
-                images={{ src: "/logos/balaji.png", alt: "Balaji" }}
+                images={{ src: "/logos/Quint.png", alt: "Quintinno" }}
                 withBorder
               />
             </li>
             <li>
-              I&apos;ve worked on 2 documentaries for Discovery{' '}
+              I&apos;ve worked on 2 documentaries for{' '}
+              <LinkText
+                variant="single-image-link"
+                text="Discovery"
+                href="https://discovery.com"
+                images={{ src: "/logos/Discovery.png", alt: "Discovery" }}
+                withBorder
+              />
             </li>
             <li>
               <span
@@ -268,15 +275,22 @@ export function Hero() {
               years old, based in Dehradun
             </li>
             <li>
-              I created YouTube shorts that got over 100M views{' '}
-            </li>
-            <li>
-              I also sometimes create cool videos that capture complex {' '}
+              I created YouTube shorts that got over 100M{' '}
               <LinkText
                 variant="single-image-link"
-                text="ideas"
+                text="views"
+                href="https://youtube.com"
+                images={{ src: "/logos/Youtube.png", alt: "youtube" }}
+                withBorder
+              />
+            </li>
+            <li>
+              I also created some cool sci-com videos for {' '}
+              <LinkText
+                variant="single-image-link"
+                text="Memesys Culture Lab"
                 href="youtube.com"
-                images={{ src: "/logos/producthacks.png", alt: "Product Hacks" }}
+                images={{ src: "/logos/memesys.png", alt: "Memesys" }}
                 withBorder
               />
             </li>
