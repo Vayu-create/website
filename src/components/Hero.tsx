@@ -92,18 +92,9 @@ export function Hero() {
                   href="/projects"
                 />
                 {' '}
-                <LinkText
-                  variant="image-stack"
-                  text=""
-                  images={[
-                    { src: "/logos/bulkgen.png", alt: "BulkGen" },
-                    { src: "/logos/pondylife.png", alt: "Pondy Life" },
-                    { src: "/logos/checkplug.png", alt: "CheckPlug" },
-                  ]}
-                />
               </li>
               <li>
-                Previously I was designing at{' '}
+                Previously I led marketing for{' '}
                 <LinkText
                   variant="single-image-link"
                   text="Solana"
@@ -239,22 +230,13 @@ export function Hero() {
                 href="/projects"
               />
               {' '}
-              <LinkText
-                variant="image-stack"
-                text=""
-                images={[
-                  { src: "/logos/bulkgen.png", alt: "BulkGen" },
-                  { src: "/logos/pondylife.png", alt: "Pondy Life" },
-                  { src: "/logos/checkplug.png", alt: "CheckPlug" },
-                ]}
-              />
             </li>
             <li>
-              Previously I was led marketing for{' '}
+              Previously I led marketing for{' '}
               <LinkText
                 variant="single-image-link"
                 text="Outscal"
-                href="https://solana.com"
+                href="https://outscal.com"
                 images={{ src: "/logos/solana.png", alt: "Solana" }}
                 withBorder
               />
@@ -262,25 +244,13 @@ export function Hero() {
               <LinkText
                 variant="single-image-link"
                 text="Qunitinno Labs"
-                href="https://x.com/balajis"
+                href="https://www.quintinno.com/"
                 images={{ src: "/logos/balaji.png", alt: "Balaji" }}
                 withBorder
               />
             </li>
             <li>
               I&apos;ve worked on 2 documentaries for Discovery{' '}
-              <LinkText
-                variant="image-stack"
-                text=""
-                images={[
-                  { src: "/logos/gates.png", alt: "Gates Foundation" },
-                  { src: "/logos/userpilot.png", alt: "Userpilot" },
-                  { src: "/logos/asy.png", alt: "Asymmetric" },
-                  { src: "/logos/cointelegraph.png", alt: "CoinTelegraph" },
-                  { src: "/logos/synthesis.png", alt: "Synthesis" },
-                  { src: "/logos/alpaca.png", alt: "Alpaca" },
-                ]}
-              />
             </li>
             <li>
               <span
@@ -299,20 +269,13 @@ export function Hero() {
             </li>
             <li>
               I created YouTube shorts that got over 100M views{' '}
-              <LinkText
-                variant="image-stack"
-                text=""
-                images={[
-                  { src: "/logos/im.png", alt: "Indian Memes" }
-                ]}
-              />
             </li>
             <li>
               I also sometimes create cool videos that capture complex {' '}
               <LinkText
                 variant="single-image-link"
                 text="ideas"
-                href="https://producthacks.io"
+                href="youtube.com"
                 images={{ src: "/logos/producthacks.png", alt: "Product Hacks" }}
                 withBorder
               />
