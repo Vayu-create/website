@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     type: 'article',
     title: 'TakeCare+',
     description: 'A revolutionary healthcare platform that connects patients with the best doctors.',
-    url: 'https://sarthakdangwal.com/projects/takecare-plus',
+    url: 'https://sarthakdangwal.com/takecare-plus',
     siteName: 'Sarthak Dangwal',
   },
   twitter: {
@@ -32,7 +32,7 @@ export default function TakeCarePlusPage() {
               className="flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600"
             >
               <ChevronLeft className="h-4 w-4" />
-              Projects
+              Home
             </Link>
             <time className="text-sm text-gray-400">
               Launched 2024
@@ -42,30 +42,10 @@ export default function TakeCarePlusPage() {
 
         {/* Project Content */}
         <article className="mx-auto w-full max-w-2xl pb-16 sm:pb-32">
-          {/* Category */}
-          <div className="mb-1 text-sm text-gray-400">
-            Healthcare Platform
-          </div>
-
           {/* Title */}
           <h1 className="mb-3 text-[28px] font-semibold tracking-[-0.02em] text-gray-900">
             TakeCare+
           </h1>
-
-          {/* Author */}
-          <div className="mb-8 flex items-center">
-            <div className="flex items-center gap-3">
-              <Image
-                src="/logos/takecare-plus.png"
-                alt="TakeCare+"
-                width={24}
-                height={24}
-                className="rounded-full"
-              />
-              <span className="text-sm text-gray-600">by Sarthak Dangwal</span>
-            </div>
-          </div>
-
           {/* Divider */}
           <div className="mb-8 h-px w-full bg-gray-200" />
 

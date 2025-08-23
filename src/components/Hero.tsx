@@ -89,7 +89,7 @@ export function Hero() {
                 <LinkText
                   variant="text-link"
                   text="TakeCare+"
-                  href="/projects"
+                  href="/takecare-plus"
                 />
                 {' '}
               </li>
@@ -227,7 +227,7 @@ export function Hero() {
               <LinkText
                 variant="text-link"
                 text="TakeCare+"
-                href="/projects"
+                href="/takecare-plus"
               />
               {' '}
             </li>
