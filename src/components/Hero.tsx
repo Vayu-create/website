@@ -49,7 +49,7 @@ export function Hero() {
   const age = Math.floor(decimalAge)
 
   return (
-    <div className="mx-auto w-full max-w-[1084px] px-4 py-8 md:grid md:grid-cols-12 md:gap-5 md:px-0 md:py-16">
+      <div className="mx-auto w-full max-w-[1084px] px-4 py-8 md:grid md:grid-cols-12 md:gap-5 md:px-0 md:py-16">
       {/* One column gap at start - desktop only */}
       <div className="hidden md:block md:col-span-1" />
       
@@ -250,12 +250,20 @@ export function Hero() {
               />
             </li>
             <li>
-              I&apos;ve worked on 2 documentaries for{' '}
+              I&apos;ve created documentaries for {' '}
               <LinkText
                 variant="single-image-link"
                 text="Discovery"
                 href="https://www.discoveryplus.com"
                 images={{ src: "/logos/Discovery.png", alt: "Discovery" }}
+                withBorder
+              />
+              {' '}&{' '}
+              <LinkText
+                variant="single-image-link"
+                text="VICE"
+                href="https://www.vice.com/"
+                images={{ src: "/logos/Vice.png",alt: "VICE" }}
                 withBorder
               />
             </li>
