@@ -254,7 +254,7 @@ export function Hero() {
               <LinkText
                 variant="single-image-link"
                 text="Discovery"
-                href="https://discovery.com"
+                href="https://www.discoveryplus.com"
                 images={{ src: "/logos/Discovery.png", alt: "Discovery" }}
                 withBorder
               />
@@ -279,7 +279,7 @@ export function Hero() {
               <LinkText
                 variant="single-image-link"
                 text="views"
-                href="https://youtube.com"
+                href="https://www.youtube.com/@Outscal/shorts"
                 images={{ src: "/logos/Youtube.png", alt: "youtube" }}
                 withBorder
               />
@@ -288,9 +288,9 @@ export function Hero() {
               I also created some cool sci-com videos for {' '}
               <LinkText
                 variant="single-image-link"
-                text="Memesys Culture Lab"
-                href="youtube.com"
-                images={{ src: "/logos/memesys.png", alt: "Memesys" }}
+                text="Anand Gandhi"
+                href="https://x.com/Memewala"
+                images={{ src: "/logos/Anand.jpg", alt: "Anand Gandhi" }}
                 withBorder
               />
             </li>
