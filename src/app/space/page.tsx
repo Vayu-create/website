@@ -49,12 +49,9 @@ export default function IndiasSpaceOdysseyPage() {
         {/* Project Content */}
         <article className="mx-auto w-full max-w-2xl pb-16 sm:pb-32">
           {/* Title */}
-          <h1 className="mb-3 text-[28px] font-semibold tracking-[-0.02em] text-gray-900">
+          <h1 className="mb-8 text-[28px] font-semibold tracking-[-0.02em] text-gray-900">
             India’s Space Odyssey
           </h1>
-
-          {/* Divider */}
-          <div className="mb-8 h-px w-full bg-gray-200" />
 
           <div className="prose prose-gray max-w-none">
             {/* Embedded Trailer */}
