@@ -68,9 +68,9 @@ export default function QuintinnoLabsPage() {
           <div className="prose prose-gray max-w-none">
             {/* Intro */}
             <p>
-              I joined <strong>Quintinno Labs</strong>, a Guwahati-based pre-seed startup, as a
+              I joined Quintinno Labs, a Guwahati-based pre-seed startup, as a
               Marketing Consultant to support the founder in the very early stages of shaping the
-              company’s narrative. The team was building <strong>QUINT</strong>, a compact, trunk-fit
+              company’s narrative. The team was building QUINT, a compact, trunk-fit
               portable power bank for electric cars designed to address one of the biggest barriers
               to EV adoption in India: range anxiety.<br/><br/>
             </p>

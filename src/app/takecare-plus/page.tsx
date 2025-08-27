@@ -76,7 +76,7 @@ export default function TakeCarePlusPage() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-8">The Problem</h2>
               <div className="space-y-6">
                 <p className="text-gray-700 leading-relaxed text-lg">
-                  India has one of the most heavily burdened medical workforces in the world. Estimates of the national doctor–patient ratio range from 1:834 to 1:1,500–1,700. At face value, these numbers may not appear alarming, but national averages obscure the underlying inequities.
+                  India has one of the most heavily burdened medical workforces in the world. Estimates of the national doctor–patient ratio range from 1:834 to 1:1700. At face value, these numbers may not appear alarming, but national averages obscure the underlying inequities.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed text-lg">
@@ -279,14 +279,23 @@ export default function TakeCarePlusPage() {
                 Where We Are Now
               </h2>
               <div className="space-y-6">
-                <p className="text-gray-700 leading-relaxed text-lg">
-                  TakeCare+ was selected for the Ashoka University Summer Incubation Program in 2025 and
-                  has progressed from concept to early validation. We engaged physicians across
-                  specialties and geographies to understand needs, workflows, and adoption barriers. We
-                  mapped patient journeys to locate the breaks in continuity of care in Tier-2 and
-                  Tier-3 settings. We developed segmentation frameworks for clinics, hospital networks,
-                  and medical colleges with an emphasis on under-resourced contexts.
-                </p>
+                                 <p className="text-gray-700 leading-relaxed text-lg">
+                   TakeCare+ was selected for the{' '}
+                   <Link
+                     href="https://www.ashoka.edu.in/"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="underline hover:text-gray-900"
+                   >
+                     Ashoka University
+                   </Link>{' '}
+                   Summer Incubation Program in 2025 and
+                   has progressed from concept to early validation. We engaged physicians across
+                   specialties and geographies to understand needs, workflows, and adoption barriers. We
+                   mapped patient journeys to locate the breaks in continuity of care in Tier-2 and
+                   Tier-3 settings. We developed segmentation frameworks for clinics, hospital networks,
+                   and medical colleges with an emphasis on under-resourced contexts.
+                 </p>
                 <p className="text-gray-700 leading-relaxed text-lg">
                   A proof-of-concept prototype is in development. It focuses on multilingual
                   transcription, structured documentation, and first-pass safety checks such as
