@@ -80,11 +80,11 @@ export default async function Post({
         <div className="w-full pb-8 sm:pb-[96px]">
           <div className="flex justify-between items-center max-w-2xl mx-auto">
             <Link 
-              href="/" 
+              href="/writing" 
               className="flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600"
             >
               <ChevronLeft className="h-4 w-4" />
-              Writing
+              Thoughts
             </Link>
             <time className="text-sm text-gray-400">
               {formatDate(post.date)}

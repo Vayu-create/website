@@ -5,7 +5,7 @@ export async function Blog() {
   const posts = await getAllPosts()
   
   return (
-    <div className="space-y-4 pb-8 md:pb-0">
+    <div className="space-y-4">
       <h2 className="text-sm font-medium uppercase text-gray-400">THOUGHTS</h2>
       
       <div className="space-y-4">

@@ -14,7 +14,9 @@ export default async function Home() {
         <div className="flex flex-col gap-12 md:hidden">
           <Projects />
           <Blog />
-          <Readings />
+          <div className="pb-12">
+            <Readings />
+          </div>
         </div>
         
         {/* Desktop layout - side by side */}
@@ -29,7 +31,7 @@ export default async function Home() {
           {/* Blog section - 3 columns but shifted more left */}
           <div className="col-span-3 -ml-28">
             <Blog />
-            <div className="mt-12">
+            <div className="mt-12 pb-12">
               <Readings />
             </div>
           </div>

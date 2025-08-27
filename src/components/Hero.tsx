@@ -161,6 +161,15 @@ export function Hero() {
                   withBorder
                 />
               </li>
+              <li>
+                If you would like to know about my work in detail, check out the{' '}
+                <LinkText
+                  variant="text-link"
+                  text="projects"
+                  href="/projects"
+                />
+                {' '}page
+              </li>
             </ul>
           </div>
 
@@ -300,6 +309,14 @@ export function Hero() {
                 href="https://x.com/Memewala"
                 images={{ src: "/logos/Anand.jpg", alt: "Anand Gandhi" }}
                 withBorder
+              />
+            </li>
+            <li>
+            You can find more about my work under {' '}
+              <LinkText
+                variant="text-link"
+                text="projects"
+                href="/projects"
               />
             </li>
           </ul>

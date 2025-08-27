@@ -2,7 +2,7 @@ import readingsData from '@/data/readings.json'
 
 export function Readings() {
   return (
-    <div className="space-y-4 pb-8 md:pb-0">
+    <div className="space-y-4">
       <h2 className="text-sm font-medium uppercase text-gray-400">READINGS</h2>
       
       <div className="space-y-4">
