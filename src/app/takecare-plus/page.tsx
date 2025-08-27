@@ -54,17 +54,17 @@ export default function TakeCarePlusPage() {
             AI Thinking Partner for Safer Healthcare
           </h1>
 
-          {/* Hero Image Slot */}
-          <div className="my-8">
-            <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden bg-gray-100">
-              <Image
-                src="/takecare/hero.jpg" // replace with your asset
-                alt="TakeCare+"
-                fill
-                className="object-cover"
-                priority
-              />
-            </div>
+                     {/* Hero Image Slot */}
+           <div className="my-8">
+             <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden">
+               <Image
+                 src="/takecare/takecarehero.png" // replace with your asset
+                 alt="TakeCare+"
+                 fill
+                 className="object-cover"
+                 priority
+               />
+             </div>
             <p className="mt-2 text-xs text-gray-500 text-center">
               Ambient assistance for high-pressure, multilingual clinics.
             </p>
@@ -101,15 +101,12 @@ export default function TakeCarePlusPage() {
             <div className="my-12">
               <div className="relative w-full aspect-[21/9] rounded-lg overflow-hidden bg-gray-100">
                 <Image
-                  src="/takecare/flow.jpg"
-                  alt="High-level TakeCare+ context overview"
+                  src="/takecare/takecareprob.png"
+                  alt="Problem at a glance"
                   fill
                   className="object-cover"
                 />
               </div>
-              <p className="mt-3 text-sm text-gray-500 text-center">
-                Context overview following the problem space.
-              </p>
             </div>
 
             {/* Why Existing Tools Don't Work */}
@@ -175,20 +172,7 @@ export default function TakeCarePlusPage() {
               </div>
             </section>
 
-            {/* Secondary Image Slot */}
-            <div className="my-12">
-              <div className="relative w-full aspect-[21/9] rounded-lg overflow-hidden bg-gray-100">
-                <Image
-                  src="/takecare/flow.jpg" // replace with your asset
-                  alt="High-level TakeCare+ workflow in clinic"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <p className="mt-3 text-sm text-gray-500 text-center">
-                High-level workflow: Listen, Structure &amp; Check, Help, File.
-              </p>
-            </div>
+
 
             {/* How It Works */}
             <section className="mb-16">
