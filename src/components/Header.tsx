@@ -48,14 +48,6 @@ export function Header() {
                 >
                   writing
                 </Link>
-                <Link 
-                  href="/values" 
-                  className={`text-sm hover:text-gray-900 ${
-                    isActive('/values') ? 'text-gray-900' : 'text-gray-500'
-                  }`}
-                >
-                  values
-                </Link>
               </nav>
 
               {/* Divider - Only on desktop */}
@@ -107,15 +99,6 @@ export function Header() {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   writing
-                </Link>
-                <Link 
-                  href="/values" 
-                  className={`text-sm hover:text-gray-900 ${
-                    isActive('/values') ? 'text-gray-900' : 'text-gray-500'
-                  }`}
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  values
                 </Link>
               </nav>
               <div className="hidden md:block md:col-span-1" />
