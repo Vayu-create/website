@@ -46,7 +46,7 @@ export function Header() {
                     isActive('/writing') ? 'text-gray-900' : 'text-gray-500'
                   }`}
                 >
-                  writing
+                  thoughts & readings
                 </Link>
               </nav>
 
@@ -98,7 +98,7 @@ export function Header() {
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  writing
+                  thoughts & readings
                 </Link>
               </nav>
               <div className="hidden md:block md:col-span-1" />

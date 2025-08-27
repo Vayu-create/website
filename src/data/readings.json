@@ -1,0 +1,23 @@
+{
+  "title": "READINGS",
+  "readings": [
+    {
+      "title": "The Psychology of Money",
+      "url": "https://example.com/reading1",
+      "date": "15.04.25",
+      "category": "Finance"
+    },
+    {
+      "title": "Atomic Habits",
+      "url": "https://example.com/reading2",
+      "date": "10.04.25",
+      "category": "Productivity"
+    },
+    {
+      "title": "Deep Work",
+      "url": "https://example.com/reading3",
+      "date": "05.04.25",
+      "category": "Focus"
+    }
+  ]
+}

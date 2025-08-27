@@ -1,6 +1,7 @@
 import { Hero } from '@/components/Hero'
 import { Projects } from '@/components/Projects'
 import { Blog } from '@/components/Blog'
+import { Readings } from '@/components/Readings'
 
 export default async function Home() {
   return (
@@ -13,6 +14,7 @@ export default async function Home() {
         <div className="flex flex-col gap-12 md:hidden">
           <Projects />
           <Blog />
+          <Readings />
         </div>
         
         {/* Desktop layout - side by side */}
@@ -27,6 +29,9 @@ export default async function Home() {
           {/* Blog section - 3 columns but shifted more left */}
           <div className="col-span-3 -ml-28">
             <Blog />
+            <div className="mt-12">
+              <Readings />
+            </div>
           </div>
 
           <div className="col-span-1" />
