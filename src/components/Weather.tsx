@@ -31,38 +31,50 @@ const WEATHER_ICONS = {
 export function Weather() {
   const [weather, setWeather] = useState<WeatherData>({ 
     temp: '', 
-    location: 'Mumbai',
+    location: 'Dehradun',
     icon: '01d'
   })
 
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        // Mumbai coordinates
-        const lat = 19.0760
-        const lon = 72.8777
+        // Dehradun coordinates
+        const lat = 30.3165
+        const lon = 78.0322
+        
+        const apiKey = process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY
+        
+        if (!apiKey) {
+          console.warn('OpenWeather API key not found. Using fallback weather data.')
+          setWeather({
+            temp: '25°C',
+            location: 'Dehradun',
+            icon: '01d'
+          })
+          return
+        }
         
         const response = await fetch(
-          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY}`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`
         )
 
         if (!response.ok) {
-          throw new Error('Weather data fetch failed')
+          throw new Error(`Weather API responded with status: ${response.status}`)
         }
 
         const data = await response.json()
         
         setWeather({
           temp: `${Math.round(data.main.temp)}°C`,
-          location: 'Mumbai',
+          location: 'Dehradun',
           icon: data.weather[0].icon
         })
       } catch (error) {
         console.error('Error fetching weather:', error)
         // Fallback to default values on error
         setWeather({
-          temp: '28°C',
-          location: 'Mumbai',
+          temp: '25°C',
+          location: 'Dehradun',
           icon: '01d'
         })
       }
