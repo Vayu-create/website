@@ -9,6 +9,19 @@ interface ProjectsProps {
 export function Projects({ showAll = false }: ProjectsProps) {
   const displayProjects = showAll ? projectsData.projects : projectsData.projects.slice(0, 4);
 
+  const getProjectUrl = (url: string) => {
+    // If URL starts with /, it's an internal route
+    if (url.startsWith('/')) {
+      return url;
+    }
+    // If URL starts with http/https, use as is
+    if (url.startsWith('http://') || url.startsWith('https://')) {
+      return url;
+    }
+    // Otherwise, add https:// prefix for external URLs
+    return `https://${url}`;
+  };
+
   return (
     <div className="space-y-4">
       <h2 className="text-sm font-medium uppercase text-gray-400">{projectsData.title}</h2>
@@ -30,7 +43,7 @@ export function Projects({ showAll = false }: ProjectsProps) {
               <LinkText
                 variant="text-link"
                 text={project.name}
-                href={`https://${project.url}`}
+                href={getProjectUrl(project.url)}
               />
               <p className="text-base text-gray-600">{project.description}</p>
             </div>

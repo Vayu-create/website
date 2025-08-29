@@ -37,11 +37,11 @@ export default function QuintinnoLabsPage() {
         <div className="w-full pb-6 sm:pb-12">
           <div className="flex justify-start items-center max-w-2xl mx-auto">
             <Link
-              href="/"
+              href="/projects"
               className="flex items-center gap-1 text-sm text-gray-400 hover:text-gray-700"
             >
               <ChevronLeft className="h-4 w-4" />
-              Home
+              Projects
             </Link>
           </div>
         </div>

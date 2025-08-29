@@ -157,23 +157,22 @@ export function Hero() {
                 />
               </li>
               <li>
-                I write a pretty smart newsletter called{' '}
+                I also created some cool sci-com videos for {' '}
                 <LinkText
                   variant="single-image-link"
-                  text="Product Hacks"
-                  href="https://producthacks.io"
-                  images={{ src: "/logos/producthacks.png", alt: "Product Hacks" }}
+                  text="Anand Gandhi"
+                  href="https://x.com/Memewala"
+                  images={{ src: "/logos/Anand.jpg", alt: "Anand Gandhi" }}
                   withBorder
                 />
               </li>
               <li>
-                If you would like to know about my work in detail, check out the{' '}
+                You can find more about my work under {' '}
                 <LinkText
                   variant="text-link"
                   text="projects"
                   href="/projects"
                 />
-                {' '}page
               </li>
             </ul>
           </div>
