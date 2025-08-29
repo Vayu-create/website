@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { LinkText } from './LinkText'
 import { Mail } from 'lucide-react'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 
 export function Hero() {
   const [showCopied, setShowCopied] = useState(false)
@@ -17,7 +17,7 @@ export function Hero() {
     setTimeout(() => setShowCopied(false), 2000)
   }
 
-  const birthDate = new Date('1999-05-27')
+  const birthDate = useMemo(() => new Date('1999-05-27'), [])
 
   useEffect(() => {
     const calculateAge = () => {
