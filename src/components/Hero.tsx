@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { LinkText } from './LinkText'
-import { Mail, Github, Instagram } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 export function Hero() {
@@ -70,7 +70,7 @@ export function Hero() {
           <div className="w-1/4 aspect-square relative">
             <Image
               src="/yb-hero.jpg"
-              alt="Yash Bhardwaj"
+              alt="Sarthak Dangwal"
               fill
               className="rounded-lg object-cover"
               priority
@@ -99,33 +99,36 @@ export function Hero() {
                 Previously I led marketing for{' '}
                 <LinkText
                   variant="single-image-link"
-                  text="Solana"
-                  href="https://solana.com"
-                  images={{ src: "/logos/solana.png", alt: "Solana" }}
+                  text="Outscal"
+                  href="https://outscal.com"
+                  images={{ src: "/logos/Outscal.png",alt: "Outscal"}}
                   withBorder
                 />
                 {' '}&{' '}
                 <LinkText
                   variant="single-image-link"
-                  text="Balaji S"
-                  href="https://x.com/balajis"
-                  images={{ src: "/logos/balaji.png", alt: "Balaji" }}
+                  text="Qunitinno Labs"
+                  href="https://www.quintinno.com/"
+                  images={{ src: "/logos/Quint.png", alt: "Quintinno" }}
                   withBorder
                 />
               </li>
               <li>
-                I&apos;ve worked for 220 companies since 2016{' '}
+                I&apos;ve created documentaries for {' '}
                 <LinkText
-                  variant="image-stack"
-                  text=""
-                  images={[
-                    { src: "/logos/gates.png", alt: "Gates Foundation" },
-                    { src: "/logos/userpilot.png", alt: "Userpilot" },
-                    { src: "/logos/asy.png", alt: "Asymmetric" },
-                    { src: "/logos/cointelegraph.png", alt: "CoinTelegraph" },
-                    { src: "/logos/synthesis.png", alt: "Synthesis" },
-                    { src: "/logos/alpaca.png", alt: "Alpaca" },
-                  ]}
+                  variant="single-image-link"
+                  text="Discovery"
+                  href="https://www.discoveryplus.com"
+                  images={{ src: "/logos/Discovery.png", alt: "Discovery" }}
+                  withBorder
+                />
+                {' '}&{' '}
+                <LinkText
+                  variant="single-image-link"
+                  text="VICE"
+                  href="https://www.vice.com/"
+                  images={{ src: "/logos/Vice.png",alt: "VICE" }}
+                  withBorder
                 />
               </li>
               <li>
@@ -144,13 +147,13 @@ export function Hero() {
                 years old, based in Dehradun
               </li>
               <li>
-                I built the first meme page network in India to 16M followers{' '}
+                I created YouTube shorts that got over 100M{' '}
                 <LinkText
-                  variant="image-stack"
-                  text=""
-                  images={[
-                    { src: "/logos/im.png", alt: "Indian Memes" }
-                  ]}
+                  variant="single-image-link"
+                  text="views"
+                  href="https://www.youtube.com/@Outscal/shorts"
+                  images={{ src: "/logos/Youtube.png", alt: "youtube" }}
+                  withBorder
                 />
               </li>
               <li>
@@ -305,16 +308,16 @@ export function Hero() {
                 withBorder
               />
             </li>
-            <li>
-              I also created some cool sci-com videos for {' '}
-              <LinkText
-                variant="single-image-link"
-                text="Anand Gandhi"
-                href="https://x.com/Memewala"
-                images={{ src: "/logos/Anand.jpg", alt: "Anand Gandhi" }}
-                withBorder
-              />
-            </li>
+                          <li>
+                I also created some cool sci-com videos for {' '}
+                <LinkText
+                  variant="single-image-link"
+                  text="Anand Gandhi"
+                  href="https://x.com/Memewala"
+                  images={{ src: "/logos/Anand.jpg", alt: "Anand Gandhi" }}
+                  withBorder
+                />
+              </li>
             <li>
             You can find more about my work under {' '}
               <LinkText

@@ -12,7 +12,7 @@ export async function Blog() {
         {posts.slice(0, 3).map((post) => (
           <div key={post.slug} className="group">
             <Link 
-              href={`/writing/${post.slug}`}
+              href={`/thoughts-readings/${post.slug}`}
               className="grid grid-cols-[80px_1fr] items-baseline"
             >
               <span className="text-sm text-gray-400">{post.date}</span>

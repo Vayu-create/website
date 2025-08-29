@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     title: "Sarthak Dangwal",
     description: "Building fun things on the internet",
     siteName: 'Sarthak Dangwal',
-    images: ["https://yashbhardwaj.com/og-image.png"],
+    images: ["https://sarthakdangwal.com/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sarthak Dangwal",
     description: "Building fun things on the internet",
-    images: ["https://yashbhardwaj.com/og-image.png"],
-    creator: '@ybhrdwj',
+    images: ["https://sarthakdangwal.com/og-image.png"],
+    creator: '@sarthakdangwal',
   },
   robots: {
     index: true,
@@ -45,7 +45,6 @@ export const metadata: Metadata = {
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#000000',
 };
 
 export default function RootLayout({

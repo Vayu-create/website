@@ -51,7 +51,7 @@ export default async function ThoughtsAndReadingsPage() {
                     <span className="text-sm text-gray-400">{post.date}</span>
                     <div className="min-w-0">
                       <Link 
-                        href={`/writing/${post.slug}`}
+                        href={`/thoughts-readings/${post.slug}`}
                         className="inline-block"
                       >
                         <span className="border-b border-gray-200 text-base text-gray-600 group-hover:text-gray-900 group-hover:border-gray-400">

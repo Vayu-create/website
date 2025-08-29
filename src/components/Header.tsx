@@ -41,9 +41,9 @@ export function Header() {
                   projects
                 </Link>
                 <Link 
-                  href="/writing" 
+                  href="/thoughts-readings" 
                   className={`text-sm hover:text-gray-900 ${
-                    isActive('/writing') ? 'text-gray-900' : 'text-gray-500'
+                    isActive('/thoughts-readings') ? 'text-gray-900' : 'text-gray-500'
                   }`}
                 >
                   thoughts & readings
@@ -92,9 +92,9 @@ export function Header() {
                   projects
                 </Link>
                 <Link 
-                  href="/writing" 
+                  href="/thoughts-readings" 
                   className={`text-sm hover:text-gray-900 ${
-                    isActive('/writing') ? 'text-gray-900' : 'text-gray-500'
+                    isActive('/thoughts-readings') ? 'text-gray-900' : 'text-gray-500'
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >

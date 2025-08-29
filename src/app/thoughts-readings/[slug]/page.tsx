@@ -31,7 +31,7 @@ export async function generateMetadata({
       type: 'article',
       title: post.title,
       description: post.description || post.title,
-      url: `https://yashbhardwaj.com/writing/${slug}`,
+      url: `https://sarthakdangwal.com/thoughts-readings/${slug}`,
       images: [
         {
           url: ogUrl,
@@ -48,7 +48,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: post.title,
       description: post.description || post.title,
-      creator: '@ybhrdwj',
+      creator: '@sarthakdangwal',
       images: [
         {
           url: ogUrl,
@@ -80,7 +80,7 @@ export default async function Post({
         <div className="w-full pb-8 sm:pb-[96px]">
           <div className="flex justify-between items-center max-w-2xl mx-auto">
             <Link 
-              href="/writing" 
+              href="/thoughts-readings" 
               className="flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600"
             >
               <ChevronLeft className="h-4 w-4" />
@@ -127,4 +127,5 @@ export default async function Post({
       </div>
     </div>
   )
-} 
+}
+

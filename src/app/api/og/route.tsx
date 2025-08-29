@@ -30,7 +30,7 @@ export async function GET(request: NextRequest) {
     const baseUrl = new URL(request.url).origin
 
     // Generate the text content that will use the font
-    const textContent = `${title || 'Writing'}${category || ''}${date || ''}@ybhrdwj`
+    const textContent = `${title || 'Writing'}${category || ''}${date || ''}@sarthakdangwal`
 
     // Load the fonts with the exact text content we'll use
     const [interRegular, interSemiBold] = await Promise.all([
@@ -76,7 +76,7 @@ export async function GET(request: NextRequest) {
                   color: '#6b7280',
                   fontFamily: 'Inter',
                   fontWeight: 400,
-                }}>@ybhrdwj</span>
+                }}>@sarthakdangwal</span>
               </div>
               <h1
                 style={{
@@ -167,7 +167,7 @@ export async function GET(request: NextRequest) {
                 color: '#6b7280',
                 fontFamily: 'Inter',
                 fontWeight: 400,
-              }}>@ybhrdwj</span>
+              }}>@sarthakdangwal</span>
             </div>
 
             {/* Arrow */}
@@ -237,6 +237,15 @@ export async function GET(request: NextRequest) {
               }}>{date}</span>
             </div>
           </div>
+          <span style={{
+            position: 'absolute',
+            bottom: '40px',
+            right: '40px',
+            fontSize: '24px',
+            fontWeight: '600',
+            color: '#6B7280',
+            fontFamily: 'Inter'
+          }}>@sarthakdangwal</span>
         </div>
       ),
       {
