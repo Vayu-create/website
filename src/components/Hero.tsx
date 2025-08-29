@@ -87,9 +87,11 @@ export function Hero() {
               <li>
                 Currently I&apos;m working on {' '}
                 <LinkText
-                  variant="text-link"
+                  variant="single-image-link"
                   text="TakeCare+"
                   href="/takecare-plus"
+                  images={{ src: "/logos/TakeCarelogo.png", alt: "TakeCare+" }}
+                  withBorder
                 />
                 {' '}
               </li>
@@ -234,9 +236,11 @@ export function Hero() {
             <li>
               Currently I&apos;m working on{' '}
               <LinkText
-                variant="text-link"
+                variant="single-image-link"
                 text="TakeCare+"
                 href="/takecare-plus"
+                images={{ src: "/logos/TakeCarelogo.png", alt: "TakeCare+" }}
+                withBorder
               />
               {' '}
             </li>
