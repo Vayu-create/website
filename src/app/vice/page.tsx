@@ -5,27 +5,19 @@ import { ChevronLeft, ExternalLink } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Money Mafia S3 | Sarthak Dangwal',
-  description:
-    'My role as Director’s Assistant on Money Mafia Season 3, a four-part documentary series exploring the dark underbelly of Mumbai’s economy.',
-  icons: {
-    icon: '/favicon.png',
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon-16x16.png',
-  },
+  title: 'VICE — Work Overview',
+  description: 'Marketing and editorial support for VICE documentaries',
   openGraph: {
     type: 'article',
-    title: 'Money Mafia S3',
-    description:
-      'Director’s Assistant role on Money Mafia Season 3 — production, scripting, on-set logistics, and creative direction for VICE x Discovery.',
-    url: 'https://sarthakdangwal.com/money-mafia-s3',
+    title: 'VICE — Work Overview',
+    description: 'Marketing and editorial support for VICE documentaries',
+    url: 'https://sarthakdangwal.com/vice',
     siteName: 'Sarthak Dangwal',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Money Mafia S3',
-    description:
-      'Director’s Assistant role on Money Mafia Season 3 — production, scripting, on-set logistics, and creative direction for VICE x Discovery.',
+    title: 'VICE — Work Overview',
+    description: 'Marketing and editorial support for VICE documentaries',
   },
 }
 

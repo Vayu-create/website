@@ -8,11 +8,6 @@ export const metadata: Metadata = {
   title: 'Outscal: Scaling to 100M+ Views | Sarthak Dangwal',
   description:
     'How I scaled Outscal\'s YouTube presence to 100M+ views and 50K+ subscribers with an AI-assisted Shorts engine and data-driven experimentation.',
-  icons: {
-    icon: '/favicon.png',
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon-16x16.png',
-  },
   openGraph: {
     type: 'article',
     title: 'Outscal: Scaling to 100M+ Views',

@@ -8,11 +8,6 @@ export const metadata: Metadata = {
   title: 'TakeCare+ — AI Thinking Partner for Safer Healthcare | Sarthak Dangwal',
   description:
     'TakeCare+ is a multilingual, ambient AI thinking partner that helps Indian clinicians reduce errors of omission, improve continuity of care, and generate ABDM-compliant records.',
-  icons: {
-    icon: '/favicon.png',
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon-16x16.png',
-  },
   openGraph: {
     type: 'article',
     title: 'TakeCare+ — AI Thinking Partner for Safer Healthcare',

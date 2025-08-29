@@ -8,11 +8,6 @@ export const metadata: Metadata = {
   title: 'Quintinno Labs',
   description:
     'Journey + case study of my work with Quintinno Labs on QUINT, a compact, trunk-fit EV power bank: positioning, copy, GTM collateral, and media coordination.',
-  icons: {
-    icon: '/favicon.png',
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon-16x16.png',
-  },
   openGraph: {
     type: 'article',
     title: 'Quintinno Labs',

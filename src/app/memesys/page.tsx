@@ -5,27 +5,19 @@ import { ChevronLeft, ExternalLink } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Memesys Culture Lab | Sarthak Dangwal',
-  description:
-    'Science-communication reels for Memesys Culture Lab, including a perception-limits reel for Anand Gandhi — concept, script, design, editing, and platform optimization.',
-  icons: {
-    icon: '/favicon.png',
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon-16x16.png',
-  },
+  title: 'Memesys Culture Lab — Sci-Com Work',
+  description: 'Case study of sci-com videos and editorial work done for Memesys',
   openGraph: {
     type: 'article',
-    title: 'Memesys Culture Lab',
-    description:
-      'Short-form science communication: concept-to-publish reels for Memesys Culture Lab and Anand Gandhi.',
-    url: 'https://sarthakdangwal.com/memesys-culture-lab',
+    title: 'Memesys Culture Lab — Sci-Com Work',
+    description: 'Case study of sci-com videos and editorial work done for Memesys',
+    url: 'https://sarthakdangwal.com/memesys',
     siteName: 'Sarthak Dangwal',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Memesys Culture Lab',
-    description:
-      'Short-form science communication: concept-to-publish reels for Memesys Culture Lab and Anand Gandhi.',
+    title: 'Memesys Culture Lab — Sci-Com Work',
+    description: 'Case study of sci-com videos and editorial work done for Memesys',
   },
 }
 

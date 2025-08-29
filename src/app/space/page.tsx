@@ -5,27 +5,19 @@ import { ChevronLeft } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "India’s Space Odyssey | Sarthak Dangwal",
-  description:
-    "Assistant Producer on India’s Space Odyssey (Discovery+ Original) — production assistance, editing, interview management, and data management.",
-  icons: {
-    icon: '/favicon.png',
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon-16x16.png',
-  },
+  title: 'India’s Space Program — Discovery+',
+  description: 'Documenting the journey of India’s space program for Discovery+',
   openGraph: {
     type: 'article',
-    title: "India’s Space Odyssey",
-    description:
-      "Discovery+ Original celebrating India’s space program. My role as Assistant Producer across production, editing, interviews, and data management.",
-    url: 'https://sarthakdangwal.com/indias-space-odyssey',
+    title: 'India’s Space Program — Discovery+',
+    description: 'Documenting the journey of India’s space program for Discovery+',
+    url: 'https://sarthakdangwal.com/space',
     siteName: 'Sarthak Dangwal',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "India’s Space Odyssey",
-    description:
-      "Discovery+ Original celebrating India’s space program. My role as Assistant Producer across production, editing, interviews, and data management.",
+    title: 'India’s Space Program — Discovery+',
+    description: 'Documenting the journey of India’s space program for Discovery+',
   },
 }
 
