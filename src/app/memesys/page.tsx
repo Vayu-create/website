@@ -1,7 +1,6 @@
 // app/memesys-culture-lab/page.tsx
 import Link from 'next/link'
-import Image from 'next/image'
-import { ChevronLeft, ExternalLink } from 'lucide-react'
+import { ChevronLeft } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {

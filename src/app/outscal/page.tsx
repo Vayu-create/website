@@ -1,13 +1,19 @@
 // app/outscal/page.tsx
 import Link from 'next/link'
 import Image from 'next/image'
-import { ChevronLeft, ExternalLink } from 'lucide-react'
+import { ChevronLeft } from 'lucide-react'
 import type { Metadata } from 'next'
+import { BackLink } from '@/components/BackLink'
 
 export const metadata: Metadata = {
   title: 'Outscal: Scaling to 100M+ Views | Sarthak Dangwal',
   description:
     'How I scaled Outscal\'s YouTube presence to 100M+ views and 50K+ subscribers with an AI-assisted Shorts engine and data-driven experimentation.',
+  icons: {
+    icon: '/favicon.png',
+    apple: '/apple-touch-icon.png',
+    shortcut: '/favicon-16x16.png',
+  },
   openGraph: {
     type: 'article',
     title: 'Outscal: Scaling to 100M+ Views',
@@ -31,13 +37,7 @@ export default function OutscalPage() {
                  {/* Navigation */}
          <div className="w-full pb-6 sm:pb-12">
            <div className="flex justify-start items-center max-w-2xl mx-auto">
-             <Link
-               href="/projects"
-               className="flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600"
-             >
-               <ChevronLeft className="h-4 w-4" />
-               Projects
-             </Link>
+             <BackLink label="Back" />
            </div>
          </div>
 

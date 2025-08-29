@@ -1,7 +1,6 @@
-// app/money-mafia-s3/page.tsx
+// app/vice/page.tsx
 import Link from 'next/link'
-import Image from 'next/image'
-import { ChevronLeft, ExternalLink } from 'lucide-react'
+import { ChevronLeft } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function MoneyMafiaPage() {
+export default function VicePage() {
   return (
     <div className="relative w-full max-w-full overflow-x-hidden">
       <div className="mx-auto w-full max-w-[1084px] px-4 sm:px-6 pt-6 sm:pt-[54px]">

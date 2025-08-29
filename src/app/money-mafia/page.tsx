@@ -1,7 +1,6 @@
 // app/money-mafia-s3/page.tsx
 import Link from 'next/link'
-import Image from 'next/image'
-import { ChevronLeft, ExternalLink } from 'lucide-react'
+import { ChevronLeft } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -70,16 +69,16 @@ export default function MoneyMafiaPage() {
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Project Overview</h2>
             <p className="text-gray-700 mb-6">
               I contributed to the production of <em>Money Mafia S3</em>, a gripping four-part
-              documentary series exploring Mumbai's shadow economy. The show dives into extortion,
+              documentary series exploring Mumbai&apos;s shadow economy. The show dives into extortion,
               gold smuggling, drug trafficking, and hawala operations, offering an unflinching look
-              at some of India's most audacious rackets. Produced in collaboration with VICE and
+              at some of India&apos;s most audacious rackets. Produced in collaboration with VICE and
               Discovery, the series combines bold storytelling with investigative depth.
             </p>
 
             {/* My Role */}
             <h2 className="text-xl font-semibold text-gray-900 mb-4">My Role</h2>
             <p className="text-gray-700 mb-4">
-              Serving as the Director's Assistant on this project was a milestone in my career, 
+              Serving as the Director&apos;s Assistant on this project was a milestone in my career, 
               offering first-hand experience with two studios whose work has long inspired me. My
               responsibilities spanned across multiple critical areas of production:
             </p>
