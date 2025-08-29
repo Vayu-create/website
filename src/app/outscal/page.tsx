@@ -3,17 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ChevronLeft } from 'lucide-react'
 import type { Metadata } from 'next'
-import { BackLink } from '@/components/BackLink'
 
 export const metadata: Metadata = {
   title: 'Outscal: Scaling to 100M+ Views | Sarthak Dangwal',
   description:
     'How I scaled Outscal\'s YouTube presence to 100M+ views and 50K+ subscribers with an AI-assisted Shorts engine and data-driven experimentation.',
-  icons: {
-    icon: '/favicon.png',
-    apple: '/apple-touch-icon.png',
-    shortcut: '/favicon-16x16.png',
-  },
   openGraph: {
     type: 'article',
     title: 'Outscal: Scaling to 100M+ Views',
@@ -37,7 +31,13 @@ export default function OutscalPage() {
                  {/* Navigation */}
          <div className="w-full pb-6 sm:pb-12">
            <div className="flex justify-start items-center max-w-2xl mx-auto">
-             <BackLink label="Back" />
+             <Link
+               href="/projects"
+               className="flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600"
+             >
+               <ChevronLeft className="h-4 w-4" />
+               Projects
+             </Link>
            </div>
          </div>
 
@@ -54,14 +54,17 @@ export default function OutscalPage() {
           <div className="prose prose-gray max-w-none">
             {/* Problem — bloggy narrative */}
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Problem Statement</h2>
-            <p className="text-gray-700">
-            Outscal was an early stage Ed‑Tech startup that needed organic
-              traction fast. I started by taking the coolest game dev stories everywhere: LinkedIn, 
-              Instagram Reels, TikTok, Discord… then watched where people actually leaned in. One
-              channel kept breaking out: <em>YouTube Shorts</em>. Discovery was faster, retention
-              was healthier, and the analytics gave us clean feedback loops. From that point on, I
-              treated the channel like a product: ship, measure, iterate, repeat.
-            </p>
+          <p className="text-gray-700">
+            Outscal, an early-stage EdTech startup, required rapid organic traction to
+            establish its market presence. To address this, I initially distributed
+            engaging game development narratives across multiple platforms: LinkedIn,
+            Instagram Reels, TikTok, and Discord, while closely observing audience
+            engagement patterns. Among these, <em>YouTube Shorts</em> consistently
+            demonstrated superior performance in terms of discovery velocity, audience
+            retention, and the clarity of analytic feedback loops. Recognizing this
+            advantage, I subsequently adopted a product-oriented approach to the channel,
+            emphasizing iterative cycles of experimentation, measurement, and refinement.
+          </p>
 
             {/* Quick stats strip */}
             <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
