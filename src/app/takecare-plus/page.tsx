@@ -87,7 +87,7 @@ export default function TakeCarePlusPage() {
                   The operational realities within Tier-2 and Tier-3 clinics illustrate the structural fragility of care delivery. Electronic medical records are rare. Diagnoses and prescriptions are typically handwritten on slips of paper, leaving no durable record and little continuity of care. Consultations often last only three to seven minutes in order to manage patient volume. Critical questions are left unasked. Allergies and past histories are confirmed verbally, if at all. Patients provide fragmented recollections. Prescriptions, written hastily, are handed to chemists who must interpret the handwriting before dispensing medication, a process that is accurate in some cases but dangerously flawed in others.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Despite this, official data on adverse drug reactions (ADRs) in India does not reflect the true scale of the problem. This is not due to lower incidence but rather to chronic under-reporting. India's ADR reporting rate is estimated at less than 1%, compared to a global average of approximately 5%. This does not indicate fewer ADRs, but rather highlights significant under-reporting and the absence of systematic pharmacovigilance, especially in overburdened, resource-constrained settings.
+                  Despite this, official data on adverse drug reactions (ADRs) in India does not reflect the true scale of the problem. This is not due to lower incidence but rather to chronic under-reporting. India&apos;s ADR reporting rate is estimated at less than 1%, compared to a global average of approximately 5%. This does not indicate fewer ADRs, but rather highlights significant under-reporting and the absence of systematic pharmacovigilance, especially in overburdened, resource-constrained settings.
                 </p>
               </div>
             </section>
@@ -144,16 +144,16 @@ export default function TakeCarePlusPage() {
                 </p>
                 <ul className="list-disc pl-6 text-gray-700 space-y-3">
                   <li>
-                    Highlights follow-ups that should be pursued: <em>"Travel history?"</em> during
+                    Highlights follow-ups that should be pursued: <em>&quot;Travel history?&quot;</em> during
                     fever season.
                   </li>
                   <li>
-                    Recalls important past details: <em>"Avoid NSAIDs, gastrointestinal intolerance
-                    noted."</em>
+                    Recalls important past details: <em>&quot;Avoid NSAIDs, gastrointestinal intolerance
+                    noted.&quot;</em>
                   </li>
                   <li>
-                    Brings local epidemiology into the room: <em>"Dengue cases are increasing in this
-                    district. Consider NS1 testing."</em>
+                    Brings local epidemiology into the room: <em>&quot;Dengue cases are increasing in this
+                    district. Consider NS1 testing.&quot;</em>
                   </li>
                   <li>
                     Grounds each suggestion in evidence so the physician understands both the

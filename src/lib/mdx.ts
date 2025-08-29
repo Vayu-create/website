@@ -1,7 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import { ReactNode } from 'react'
 
 const postsDirectory = path.join(process.cwd(), 'src/content/posts')
 

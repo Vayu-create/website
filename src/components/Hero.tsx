@@ -44,7 +44,7 @@ export function Hero() {
     } else {
       setDecimalAge(calculateAge())
     }
-  }, [isHovering])
+  }, [isHovering, birthDate])
 
   const age = Math.floor(decimalAge)
 
