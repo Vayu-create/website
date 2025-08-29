@@ -43,7 +43,7 @@ export default function ProjectsPage() {
                     <LinkText
                       variant="text-link"
                       text={project.name}
-                      href={`https://${project.url}`}
+                      href={project.url.startsWith('/') ? project.url : `https://${project.url}`}
                     />
                     <p className="text-base text-gray-600">{project.description}</p>
                   </div>

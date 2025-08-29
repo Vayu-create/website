@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { LinkText } from './LinkText'
-import { Mail, Github, Instagram } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 export function Hero() {
@@ -12,12 +12,12 @@ export function Hero() {
 
   const handleEmailClick = (e: React.MouseEvent) => {
     e.preventDefault()
-    navigator.clipboard.writeText('yb@yashbhardwaj.com')
+    navigator.clipboard.writeText('sarthakdangwal3@gmail.com')
     setShowCopied(true)
     setTimeout(() => setShowCopied(false), 2000)
   }
 
-  const birthDate = new Date('1998-08-19')
+  const birthDate = new Date('1999-05-27')
 
   useEffect(() => {
     const calculateAge = () => {
@@ -31,7 +31,7 @@ export function Hero() {
     }
 
     const calculateDecimalAge = () => {
-      const birthTime = new Date('1998-08-19T00:00:00').getTime()
+      const birthTime = new Date('1999-05-27T00:00:00').getTime()
       const currentTime = new Date().getTime()
       const ageInMilliseconds = currentTime - birthTime
       const ageInYears = ageInMilliseconds / (1000 * 60 * 60 * 24 * 365.25)
@@ -49,7 +49,7 @@ export function Hero() {
   const age = Math.floor(decimalAge)
 
   return (
-    <div className="mx-auto w-full max-w-[1084px] px-4 py-8 md:grid md:grid-cols-12 md:gap-5 md:px-0 md:py-16">
+      <div className="mx-auto w-full max-w-[1084px] px-4 py-8 md:grid md:grid-cols-12 md:gap-5 md:px-0 md:py-16">
       {/* One column gap at start - desktop only */}
       <div className="hidden md:block md:col-span-1" />
       
@@ -60,7 +60,7 @@ export function Hero() {
           {/* Welcome paragraph - 75% width */}
           <div className="w-3/4">
             <p className="text-base text-gray-600">
-              Hello! I&apos;m Yash and you&apos;re currently exploring my tiny 
+              Hello! I&apos;m Sarthak and you&apos;re currently exploring my tiny 
               corner of the internet. I use this space to project my ideas 
               and express my obsessions.
             </p>
@@ -70,7 +70,7 @@ export function Hero() {
           <div className="w-1/4 aspect-square relative">
             <Image
               src="/yb-hero.jpg"
-              alt="Yash Bhardwaj"
+              alt="Sarthak Dangwal"
               fill
               className="rounded-lg object-cover"
               priority
@@ -85,54 +85,50 @@ export function Hero() {
             <h2 className="text-sm font-medium uppercase text-gray-400">Summary</h2>
             <ul className="list-disc space-y-2 pl-4 text-gray-600 [&>li::marker]:text-gray-300">
               <li>
-                Currently I&apos;m working on my{' '}
-                <LinkText
-                  variant="text-link"
-                  text="ideas"
-                  href="/projects"
-                />
-                {' '}
-                <LinkText
-                  variant="image-stack"
-                  text=""
-                  images={[
-                    { src: "/logos/bulkgen.png", alt: "BulkGen" },
-                    { src: "/logos/pondylife.png", alt: "Pondy Life" },
-                    { src: "/logos/checkplug.png", alt: "CheckPlug" },
-                  ]}
-                />
-              </li>
-              <li>
-                Previously I was designing at{' '}
+                Currently I&apos;m working on {' '}
                 <LinkText
                   variant="single-image-link"
-                  text="Solana"
-                  href="https://solana.com"
-                  images={{ src: "/logos/solana.png", alt: "Solana" }}
+                  text="TakeCare+"
+                  href="/takecare-plus"
+                  images={{ src: "/logos/TakeCarelogo.png", alt: "TakeCare+" }}
+                  withBorder
+                />
+                {' '}
+              </li>
+              <li>
+                Previously I led marketing for{' '}
+                <LinkText
+                  variant="single-image-link"
+                  text="Outscal"
+                  href="https://outscal.com"
+                  images={{ src: "/logos/Outscal.png",alt: "Outscal"}}
                   withBorder
                 />
                 {' '}&{' '}
                 <LinkText
                   variant="single-image-link"
-                  text="Balaji S"
-                  href="https://x.com/balajis"
-                  images={{ src: "/logos/balaji.png", alt: "Balaji" }}
+                  text="Qunitinno Labs"
+                  href="https://www.quintinno.com/"
+                  images={{ src: "/logos/Quint.png", alt: "Quintinno" }}
                   withBorder
                 />
               </li>
               <li>
-                I&apos;ve worked for 220 companies since 2016{' '}
+                I&apos;ve created documentaries for {' '}
                 <LinkText
-                  variant="image-stack"
-                  text=""
-                  images={[
-                    { src: "/logos/gates.png", alt: "Gates Foundation" },
-                    { src: "/logos/userpilot.png", alt: "Userpilot" },
-                    { src: "/logos/asy.png", alt: "Asymmetric" },
-                    { src: "/logos/cointelegraph.png", alt: "CoinTelegraph" },
-                    { src: "/logos/synthesis.png", alt: "Synthesis" },
-                    { src: "/logos/alpaca.png", alt: "Alpaca" },
-                  ]}
+                  variant="single-image-link"
+                  text="Discovery"
+                  href="https://www.discoveryplus.com"
+                  images={{ src: "/logos/Discovery.png", alt: "Discovery" }}
+                  withBorder
+                />
+                {' '}&{' '}
+                <LinkText
+                  variant="single-image-link"
+                  text="VICE"
+                  href="https://www.vice.com/"
+                  images={{ src: "/logos/Vice.png",alt: "VICE" }}
+                  withBorder
                 />
               </li>
               <li>
@@ -148,26 +144,34 @@ export function Hero() {
                     </div>
                   )}
                 </span>{' '}
-                years old, based in Bombay
+                years old, based in Dehradun
               </li>
               <li>
-                I built the first meme page network in India to 16M followers{' '}
+                I created YouTube shorts that got over 100M{' '}
                 <LinkText
-                  variant="image-stack"
-                  text=""
-                  images={[
-                    { src: "/logos/im.png", alt: "Indian Memes" }
-                  ]}
+                  variant="single-image-link"
+                  text="views"
+                  href="https://www.youtube.com/@Outscal/shorts"
+                  images={{ src: "/logos/Youtube.png", alt: "youtube" }}
+                  withBorder
                 />
               </li>
               <li>
-                I write a pretty smart newsletter called{' '}
+                I also created some cool sci-com videos for {' '}
                 <LinkText
                   variant="single-image-link"
-                  text="Product Hacks"
-                  href="https://producthacks.io"
-                  images={{ src: "/logos/producthacks.png", alt: "Product Hacks" }}
+                  text="Anand Gandhi"
+                  href="https://x.com/Memewala"
+                  images={{ src: "/logos/Anand.jpg", alt: "Anand Gandhi" }}
                   withBorder
+                />
+              </li>
+              <li>
+                You can find more about my work under {' '}
+                <LinkText
+                  variant="text-link"
+                  text="projects"
+                  href="/projects"
                 />
               </li>
             </ul>
@@ -177,9 +181,9 @@ export function Hero() {
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-4 w-full">
               <a 
-                href="mailto:yb@yashbhardwaj.com" 
+                href="mailto:sarthakdangwal3@gmail.com" 
                 onClick={handleEmailClick}
-                className="group relative text-gray-400 hover:text-gray-600"
+                className="group relative text-gray-400 hover:text-gray-600 ml-2"
               >
                 <Mail className="h-5 w-5" />
                 {showCopied && (
@@ -188,40 +192,6 @@ export function Hero() {
                   </div>
                 )}
               </a>
-              <a 
-                href="https://x.com/ybhrdwj" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-gray-600"
-              >
-                <Image 
-                  src="/x.svg" 
-                  alt="X (Twitter)" 
-                  width={20} 
-                  height={20}
-                  className="[&>path]:fill-gray-100 hover:[&>path]:fill-gray-600"
-                />
-              </a>
-              <a 
-                href="https://instagram.com/ybhrdwj" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-gray-600"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a 
-                href="https://github.com/ybhrdwj" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-gray-600"
-              >
-                <Github className="h-5 w-5" />
-              </a>
-              
-              {/* Divider */}
-              <div className="h-4 w-px bg-gray-200" />
-              
               {/* Music section - inline with social icons */}
               <div className="group flex items-center gap-2 text-gray-600 flex-1 min-w-0">
                 <div className="flex items-center gap-2 whitespace-nowrap overflow-hidden">
@@ -239,10 +209,10 @@ export function Hero() {
                     <span className="inline-flex max-w-[80px] sm:max-w-none overflow-hidden">
                       <LinkText
                         variant="text-link"
-                        text="Dissolve"
-                        href="https://www.youtube.com/watch?v=xe2FPP4lX14"
+                        text="'I Only Smoke When I Drink"
+                        href="https://youtu.be/ESjPc7I5h_Q"
                       />
-                      <span className="truncate"> by Absafacto</span>
+                      <span className="truncate"> by nimino</span>
                     </span>
                   </span>
                 </div>
@@ -256,7 +226,7 @@ export function Hero() {
       <div className="hidden md:block md:col-span-7 space-y-12">
         {/* Welcome paragraph */}
         <p className="text-base text-gray-600">
-          Hello! I&apos;m Yash and you&apos;re currently exploring my tiny <br />
+          Hello! I&apos;m Sarthak and you&apos;re currently exploring my tiny <br />
           corner of the internet. I use this space to project my ideas <br />
           and express my obsessions.
         </p>
@@ -266,54 +236,50 @@ export function Hero() {
           <h2 className="text-sm font-medium uppercase text-gray-400">Summary</h2>
           <ul className="list-disc space-y-2 pl-4 text-gray-600 [&>li::marker]:text-gray-300">
             <li>
-              Currently I&apos;m working on my{' '}
-              <LinkText
-                variant="text-link"
-                text="ideas"
-                href="/projects"
-              />
-              {' '}
-              <LinkText
-                variant="image-stack"
-                text=""
-                images={[
-                  { src: "/logos/bulkgen.png", alt: "BulkGen" },
-                  { src: "/logos/pondylife.png", alt: "Pondy Life" },
-                  { src: "/logos/checkplug.png", alt: "CheckPlug" },
-                ]}
-              />
-            </li>
-            <li>
-              Previously I was designing at{' '}
+              Currently I&apos;m working on{' '}
               <LinkText
                 variant="single-image-link"
-                text="Solana"
-                href="https://solana.com"
-                images={{ src: "/logos/solana.png", alt: "Solana" }}
+                text="TakeCare+"
+                href="/takecare-plus"
+                images={{ src: "/logos/TakeCarelogo.png", alt: "TakeCare+" }}
+                withBorder
+              />
+              {' '}
+            </li>
+            <li>
+              Previously I led marketing for{' '}
+              <LinkText
+                variant="single-image-link"
+                text="Outscal"
+                href="https://outscal.com"
+                images={{ src: "/logos/Outscal.png",alt: "Outscal"}}
                 withBorder
               />
               {' '}&{' '}
               <LinkText
                 variant="single-image-link"
-                text="Balaji S"
-                href="https://x.com/balajis"
-                images={{ src: "/logos/balaji.png", alt: "Balaji" }}
+                text="Qunitinno Labs"
+                href="https://www.quintinno.com/"
+                images={{ src: "/logos/Quint.png", alt: "Quintinno" }}
                 withBorder
               />
             </li>
             <li>
-              I&apos;ve worked for 220 companies since 2016{' '}
+              I&apos;ve created documentaries for {' '}
               <LinkText
-                variant="image-stack"
-                text=""
-                images={[
-                  { src: "/logos/gates.png", alt: "Gates Foundation" },
-                  { src: "/logos/userpilot.png", alt: "Userpilot" },
-                  { src: "/logos/asy.png", alt: "Asymmetric" },
-                  { src: "/logos/cointelegraph.png", alt: "CoinTelegraph" },
-                  { src: "/logos/synthesis.png", alt: "Synthesis" },
-                  { src: "/logos/alpaca.png", alt: "Alpaca" },
-                ]}
+                variant="single-image-link"
+                text="Discovery"
+                href="https://www.discoveryplus.com"
+                images={{ src: "/logos/Discovery.png", alt: "Discovery" }}
+                withBorder
+              />
+              {' '}&{' '}
+              <LinkText
+                variant="single-image-link"
+                text="VICE"
+                href="https://www.vice.com/"
+                images={{ src: "/logos/Vice.png",alt: "VICE" }}
+                withBorder
               />
             </li>
             <li>
@@ -329,38 +295,46 @@ export function Hero() {
                   </div>
                 )}
               </span>{' '}
-              years old, based in Bombay
+              years old, based in Dehradun
             </li>
             <li>
-              I built the first meme page network in India to 16M followers{' '}
-              <LinkText
-                variant="image-stack"
-                text=""
-                images={[
-                  { src: "/logos/im.png", alt: "Indian Memes" }
-                ]}
-              />
-            </li>
-            <li>
-              I write a pretty smart newsletter called{' '}
+              I created YouTube shorts that got over 100M{' '}
               <LinkText
                 variant="single-image-link"
-                text="Product Hacks"
-                href="https://producthacks.io"
-                images={{ src: "/logos/producthacks.png", alt: "Product Hacks" }}
+                text="views"
+                href="https://www.youtube.com/@Outscal/shorts"
+                images={{ src: "/logos/Youtube.png", alt: "youtube" }}
                 withBorder
+              />
+            </li>
+                          <li>
+                I also created some cool sci-com videos for {' '}
+                <LinkText
+                  variant="single-image-link"
+                  text="Anand Gandhi"
+                  href="https://x.com/Memewala"
+                  images={{ src: "/logos/Anand.jpg", alt: "Anand Gandhi" }}
+                  withBorder
+                />
+              </li>
+            <li>
+            You can find more about my work under {' '}
+              <LinkText
+                variant="text-link"
+                text="projects"
+                href="/projects"
               />
             </li>
           </ul>
         </div>
 
         {/* Social and Music section */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4">
           <div className="flex items-center gap-4">
             <a 
-              href="mailto:yb@yashbhardwaj.com" 
+              href="mailto:sarthakdangwal3@gmail.com" 
               onClick={handleEmailClick}
-              className="group relative text-gray-400 hover:text-gray-600"
+              className="group relative text-gray-400 hover:text-gray-600 ml-2"
             >
               <Mail className="h-5 w-5" />
               {showCopied && (
@@ -369,40 +343,7 @@ export function Hero() {
                 </div>
               )}
             </a>
-            <a 
-              href="https://x.com/ybhrdwj" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-600"
-            >
-              <Image 
-                src="/x.svg" 
-                alt="X (Twitter)" 
-                width={20} 
-                height={20}
-                className="[&>path]:fill-gray-100 hover:[&>path]:fill-gray-600"
-              />
-            </a>
-            <a 
-              href="https://instagram.com/ybhrdwj" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-600"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
-            <a 
-              href="https://github.com/ybhrdwj" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-600"
-            >
-              <Github className="h-5 w-5" />
-            </a>
           </div>
-          
-          {/* Divider */}
-          <div className="h-4 w-px bg-gray-200" />
           
           {/* Music section */}
           <div className="group flex items-center gap-2 text-gray-600">
@@ -420,8 +361,8 @@ export function Hero() {
                 ♪ Listening to{' '}
                 <LinkText
                   variant="text-link"
-                  text="Dissolve by Absafacto"
-                  href="https://www.youtube.com/watch?v=xe2FPP4lX14"
+                  text="I Only Smoke When I Drink by nimino"
+                  href="https://youtu.be/ESjPc7I5h_Q"
                 />
               </span>
             </div>
@@ -433,7 +374,7 @@ export function Hero() {
       <div className="hidden md:block md:col-span-3">
         <Image
           src="/yb-hero.jpg"
-          alt="Yash Bhardwaj"
+          alt="Sarthak Dangwal"
           width={400}
           height={400}
           className="rounded-lg"

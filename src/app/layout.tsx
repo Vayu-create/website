@@ -1,6 +1,5 @@
 import { Inter } from 'next/font/google'
 import { Header } from '@/components/Header'
-import { PostHogProvider } from '@/components/PostHogProvider'
 import './globals.css'
 import { Metadata } from 'next'
 
@@ -12,29 +11,33 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Yash Bhardwaj",
+  title: "Sarthak Dangwal",
   description: "Building fun things on the internet",
-  metadataBase: new URL('https://yashbhardwaj.com'),
+  metadataBase: new URL('https://sarthakdangwal.com'),
   icons: {
-    icon: '/favicon.ico?v=1',
-    apple: '/apple-touch-icon.png?v=1',
-    shortcut: '/favicon-16x16.png?v=1',
+    icon: [
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
+    shortcut: ['/favicon-16x16.png'],
   },
   manifest: '/site.webmanifest',
   openGraph: {
     type: 'website',
-    url: 'https://yashbhardwaj.com',
-    title: "Yash Bhardwaj",
+    url: 'https://sarthakdangwal.com',
+    title: "Sarthak Dangwal",
     description: "Building fun things on the internet",
-    siteName: 'Yash Bhardwaj',
-    images: ["https://yashbhardwaj.com/og-image.png"],
+    siteName: 'Sarthak Dangwal',
+    images: ["https://sarthakdangwal.com/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yash Bhardwaj",
+    title: "Sarthak Dangwal",
     description: "Building fun things on the internet",
-    images: ["https://yashbhardwaj.com/og-image.png"],
-    creator: '@ybhrdwj',
+    images: ["https://sarthakdangwal.com/og-image.png"],
+    creator: '@sarthakdangwal',
   },
   robots: {
     index: true,
@@ -45,7 +48,6 @@ export const metadata: Metadata = {
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#000000',
 };
 
 export default function RootLayout({
@@ -56,12 +58,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} font-sans antialiased`}>
       <body className="text-gray-900">
-        <PostHogProvider>
-          <Header />
-          <main>
-            {children}
-          </main>
-        </PostHogProvider>
+        <Header />
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   )

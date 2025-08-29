@@ -1,6 +1,6 @@
-# **yOS**
+# **Sarthak Dangwal's Personal Website**
 
-A simple personal website stack 
+A personal website built with modern web technologies.
 
 ## Built With
 
@@ -14,8 +14,8 @@ A simple personal website stack
 Clone the repository to get started:
 
 ```bash
-git clone https://github.com/yourusername/yOS.git
-cd yOS
+git clone https://github.com/yourusername/website.git
+cd website
 npm install
 npm run dev
 ```
@@ -110,9 +110,9 @@ The `src/data/` directory contains JSON files that manage content displayed thro
 The weather widget pulls real-time weather data based on geographic coordinates. Customize it by modifying the latitude and longitude in `src/components/Weather.tsx`:
 
 ```typescript
-// Mumbai coordinates (default)
-const lat = 19.0760
-const lon = 72.8777
+// Dehradun coordinates (current)
+const lat = 30.3165
+const lon = 78.0322
 ```
 
 Change these values to display weather for your preferred location.

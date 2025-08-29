@@ -1,0 +1,29 @@
+{
+  "title": "READINGS",
+  "readings": [
+    {
+      "title": "Do liberal arts liberate?",
+      "url": "https://aeon.co/essays/jack-london-martin-eden-and-the-liberal-education-in-us-life",
+      "date": "25.05.25",
+      "category": "Education"
+    },
+    {
+      "title": "Write and Write-Nots",
+      "url": "https://www.paulgraham.com/writes.html",
+      "date": "08.04.25",
+      "category": "Writing"
+    },
+    {
+      "title": "Civil Disobedience",
+      "url": "https://blogs.law.columbia.edu/uprising1313/files/2017/10/Civil-Disobedience-by-Henry-David-Thoreau.pdf",
+      "date": "22.02.25",
+      "category": "Philosophy"
+    },
+    {
+      "title": "The Cathedral and the Bazaar",
+      "url": "https://monoskop.org/images/e/e0/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf",
+      "date": "12.01.25",
+      "category": "Technology"
+    }
+  ]
+}

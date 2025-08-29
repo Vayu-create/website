@@ -2,52 +2,16 @@
   "title": "WRITING",
   "posts": [
     {
-      "slug": "attention",
-      "title": "Attention is all you need",
-      "date": "27.01.25",
-      "category": "Growth"
+      "slug": "math-without-meaning",
+      "title": "Math Without Meaning",
+      "date": "27.03.25",
+      "category": "Storytelling in Education"
     },
     {
-      "slug": "stop-investing",
-      "title": "Why I Stopped Investing",
-      "date": "16.12.24",
-      "category": "Money"
-    },
-    {
-      "slug": "ai-eating-ui",
-      "title": "AI is not eating UI",
-      "date": "25.01.25",
-      "category": "AI"
-    },
-    {
-      "slug": "puzzles-vs-muscles",
-      "title": "Puzzles vs Muscles",
-      "date": "23.02.24",
-      "category": "Mental Models"
-    },
-    {
-      "slug": "soft-launching",
-      "title": "Always be soft launching",
-      "date": "12.01.23",
-      "category": "Growth"
-    },
-    {
-      "slug": "codings-youtube-moment",
-      "title": "Coding's YouTube Moment",
+      "slug": "ai-art",
+      "title": "AI Is An Art Accelerator",
       "date": "20.03.25",
-      "category": "Future"
-    },
-    {
-      "slug": "money-wounds",
-      "title": "Heal your money wounds",
-      "date": "16.06.24",
-      "category": "Money"
-    },
-    {
-      "slug": "ambition",
-      "title": "The Audacity to Try",
-      "date": "16.04.25",
-      "category": "Mindset"
+      "category": "Art & AI"
     }
   ]
 } 

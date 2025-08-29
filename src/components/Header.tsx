@@ -25,21 +25,13 @@ export function Header() {
           <div className="col-span-10 flex h-[42px] items-center justify-between px-4 md:px-0">
             {/* Left side: Name */}
             <Link href="/" className="text-sm text-gray-900">
-              Yash Bhardwaj
+              Sarthak Dangwal
             </Link>
 
             {/* Right side: Navigation, Weather, and Menu */}
             <div className="flex items-center">
               {/* Desktop Navigation */}
               <nav className="hidden md:flex items-center gap-6 mr-6">
-                <Link 
-                  href="/writing" 
-                  className={`text-sm hover:text-gray-900 ${
-                    isActive('/writing') ? 'text-gray-900' : 'text-gray-500'
-                  }`}
-                >
-                  writing
-                </Link>
                 <Link 
                   href="/projects" 
                   className={`text-sm hover:text-gray-900 ${
@@ -49,12 +41,12 @@ export function Header() {
                   projects
                 </Link>
                 <Link 
-                  href="/values" 
+                  href="/thoughts-readings" 
                   className={`text-sm hover:text-gray-900 ${
-                    isActive('/values') ? 'text-gray-900' : 'text-gray-500'
+                    isActive('/thoughts-readings') ? 'text-gray-900' : 'text-gray-500'
                   }`}
                 >
-                  values
+                  thoughts & readings
                 </Link>
               </nav>
 
@@ -91,15 +83,6 @@ export function Header() {
               <div className="hidden md:block md:col-span-1" />
               <nav className="col-span-10 px-4 py-4 flex flex-col space-y-4">
                 <Link 
-                  href="/writing" 
-                  className={`text-sm hover:text-gray-900 ${
-                    isActive('/writing') ? 'text-gray-900' : 'text-gray-500'
-                  }`}
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  writing
-                </Link>
-                <Link 
                   href="/projects" 
                   className={`text-sm hover:text-gray-900 ${
                     isActive('/projects') ? 'text-gray-900' : 'text-gray-500'
@@ -109,13 +92,13 @@ export function Header() {
                   projects
                 </Link>
                 <Link 
-                  href="/values" 
+                  href="/thoughts-readings" 
                   className={`text-sm hover:text-gray-900 ${
-                    isActive('/values') ? 'text-gray-900' : 'text-gray-500'
+                    isActive('/thoughts-readings') ? 'text-gray-900' : 'text-gray-500'
                   }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  values
+                  thoughts & readings
                 </Link>
               </nav>
               <div className="hidden md:block md:col-span-1" />
