@@ -1,6 +1,5 @@
 // app/indias-space-odyssey/page.tsx
 import Link from 'next/link'
-import Image from 'next/image'
 import { ChevronLeft } from 'lucide-react'
 import type { Metadata } from 'next'
 
@@ -66,7 +65,7 @@ export default function IndiasSpaceOdysseyPage() {
             {/* Project Overview */}
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Project Overview</h2>
             <p className="text-gray-700 mb-6">
-              <em>India’s Space Odyssey</em> is a compelling documentary produced as a Discovery+ Original, narrating the inspiring story of India's space program. The documentary celebrates the people behind the program and the extraordinary challenges they had to overcome to achieve their ambitious goals.
+              <em>India’s Space Odyssey</em> is a compelling documentary produced as a Discovery+ Original, narrating the inspiring story of India&apos;s space program. The documentary celebrates the people behind the program and the extraordinary challenges they had to overcome to achieve their ambitious goals.
             </p>
 
             {/* My Role */}
