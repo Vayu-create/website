@@ -2,6 +2,12 @@
   "title": "READINGS",
   "readings": [
     {
+      "title": "The Braindead Megaphone",
+      "url": "https://open.ocolearnok.org/app/uploads/sites/31/2022/04/Saunders-The-Braindead-Megaphone.pdf",
+      "date": "31-08-25",
+      "category": "Media & Culture"
+    },
+    {
       "title": "Do liberal arts liberate?",
       "url": "https://aeon.co/essays/jack-london-martin-eden-and-the-liberal-education-in-us-life",
       "date": "25.05.25",
@@ -11,7 +17,7 @@
       "title": "Write and Write-Nots",
       "url": "https://www.paulgraham.com/writes.html",
       "date": "08.04.25",
-      "category": "Writing"
+      "category": "Thinking & Technology"
     },
     {
       "title": "Civil Disobedience",
